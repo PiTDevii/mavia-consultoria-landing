@@ -2,7 +2,7 @@
 
 Landing page institucional desenvolvida para a **Mavia Consultoria**, escritório de consultoria em processos financeiros, a partir de uma proposta comercial em PDF fornecida pela cliente.
 
-🔗 **Demo:** [seuusuario.github.io/mavia-consultoria-landing](#) *(atualize após ativar o GitHub Pages)*
+🔗 **Demo:** [[seuusuario.github.io/mavia-consultoria-landing](https://github.com/pedrodev2024-ship-it/mavia-consultoria-landing)](#)
 
 ## Contexto
 
