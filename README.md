@@ -39,7 +39,9 @@ O arquivo `vercel.json` direciona a rota `/` para a página principal automatica
 ```bash
 git clone https://github.com/seuusuario/mavia-consultoria-landing.git
 cd "PROJETO MAVIA"
-# abra mavia-consultoria.html no navegador
+# abra index.html no navegador
+# ou rode um servidor local simples:
+python -m http.server 8000
 ```
 
 ## Autor
