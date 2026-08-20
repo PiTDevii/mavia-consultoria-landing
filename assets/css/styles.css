@@ -320,6 +320,36 @@ nav.wrap {
     border-color: var(--green-900);
 }
 
+.stats-row {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.stats-row div {
+    padding: 18px 16px;
+    background: rgba(255, 255, 255, 0.28);
+    border: 1px solid rgba(13, 58, 43, 0.08);
+}
+
+.stats-row strong {
+    display: block;
+    font-family: "Fraunces", serif;
+    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    color: var(--green-900);
+}
+
+.stats-row span {
+    display: block;
+    margin-top: 6px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+}
+
 /* ===== Cartão de indicadores ===== */
 .ledger-card {
     background: var(--paper);
@@ -622,6 +652,41 @@ section {
     }
 }
 
+/* ===== FAQ ===== */
+.faqs {
+    background: var(--paper);
+    border-top: 1px solid var(--line);
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.faq-item {
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid var(--line);
+    padding: 28px 24px;
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    color: var(--green-900);
+}
+
+.faq-item p {
+    margin-top: 12px;
+    color: var(--ink-soft);
+    font-size: 0.94rem;
+}
+
+@media (max-width: 900px) {
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* ===== Contato ===== */
 .contact {
     background: radial-gradient(ellipse at 15% 20%, rgba(184, 145, 47, 0.16), transparent 55%), var(--green-900);
@@ -646,6 +711,16 @@ section {
     gap: 60px;
     margin-top: 52px;
     align-items: end;
+}
+
+.contact-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(245, 240, 228, 0.16);
+    padding: 26px 22px;
 }
 
 .contact-methods {
@@ -697,6 +772,25 @@ section {
 .contact-note strong {
     color: var(--paper);
     font-weight: 500;
+}
+
+.btn-light {
+    background: var(--paper);
+    color: var(--green-900);
+}
+
+.btn-light:hover {
+    background: var(--gold-100);
+}
+
+@media (max-width: 820px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-row {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* ===== Footer ===== */
