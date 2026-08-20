@@ -1,0 +1,25 @@
+{
+  "name": "mavia-consultoria-landing",
+  "version": "1.0.0",
+  "description": "Landing page institucional desenvolvida para a **Mavia Consultoria**, escritório de consultoria em processos financeiros, a partir de uma proposta comercial em PDF fornecida pela cliente.",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "npx http-server -p 8000 -o",
+    "postinstall": "mkdir -p js/vendor && cp node_modules/@vercel/analytics/dist/index.mjs js/vendor/analytics.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiTDevii/mavia-consultoria-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiTDevii/mavia-consultoria-landing/issues"
+  },
+  "homepage": "https://github.com/PiTDevii/mavia-consultoria-landing#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
